@@ -19,6 +19,8 @@
     "recoil": "^0.4.1"
   },
   "devDependencies": {
+    "@onflow/fcl": "^0.0.77",
+    "@onflow/types": "^0.0.5",
     "@types/node": "^16.9.2",
     "@types/react": "^17.0.21",
     "@types/react-dom": "^17.0.9",

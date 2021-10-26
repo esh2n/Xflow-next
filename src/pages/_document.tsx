@@ -1,4 +1,3 @@
-import React from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 interface MyDocumentInterface {
@@ -16,7 +15,6 @@ class MyDocument extends Document implements MyDocumentInterface {
     return (
       <Html lang="ja-JP">
         <Head>
-          {/* `<Head>` の内容は必要に応じて変更 */}
           <meta name="description" content={this.description} />
           <meta name="theme-color" content="#333" />
           <meta property="og:type" content="website" />
